@@ -3,6 +3,11 @@ En este ejercicio se va a realizar el diseño de la interfaz de usuario de una c
 
 Además del diseño, se desarrolla el flujo completo de la arquitectura.
 
+**Plantilla**
+
+![Plantilla a diseñar](/assets/template.png)
+
+
 ## Funcionamiento
 La aplicación realiza el siguiente funcionamiento:
 1. Busca los datos de la categoría en local. Si no existen, se recogen de red y se guardan en local. En este caso, se devuelven los datos de red.
