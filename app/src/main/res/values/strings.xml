@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Android Views</string>
+    <string name="message_error">Se ha producido un error</string>
+</resources>
