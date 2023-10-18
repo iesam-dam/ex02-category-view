@@ -14,7 +14,7 @@ La aplicación realiza el siguiente funcionamiento:
 2. Se visualiza la UI de la categoría con los datos obtenidos.
 
 ## Vídeo
-[![Link al vídeo](/assets/img_video.png)](http://google.com.au/)
+[![Link al vídeo](/assets/img_video.png)](https://youtu.be/hVuAIaPvmQs)
 
 ## Conceptos
 - Activity
