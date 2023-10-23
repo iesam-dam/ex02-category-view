@@ -5,7 +5,7 @@ import com.iesam.androidviews.app.ErrorApp
 
 class GetCategoryUseCase(private val repository: CategoryRepository) {
 
-    operator fun invoke(): Either<ErrorApp, Category> {
+    suspend operator fun invoke(): Either<ErrorApp, Category> {
         return repository.obtainCategory()
     }
 

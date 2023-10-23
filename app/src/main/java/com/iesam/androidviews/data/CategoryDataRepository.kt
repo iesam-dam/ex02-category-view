@@ -13,7 +13,7 @@ class CategoryDataRepository(
 ) : CategoryRepository {
 
 
-    override fun obtainCategory(): Either<ErrorApp, Category> {
+    override suspend fun obtainCategory(): Either<ErrorApp, Category> {
         var category = local.getCategory()
         category.mapLeft { errorApp ->
             return remote.getCategory().map { category ->

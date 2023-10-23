@@ -18,7 +18,8 @@ class CategoryViewModel(private val getCategoryUseCase: GetCategoryUseCase) : Vi
 
     fun loadCategory() {
         _uiModel.value = UiModel(isLoading = true)
-        viewModelScope.launch(Dispatchers.IO) {
+
+        viewModelScope.launch(Dispatchers.Main) {
             delay(5000)
             getCategoryUseCase().fold(
                 { responseError(it) },

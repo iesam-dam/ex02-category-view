@@ -5,6 +5,6 @@ import com.iesam.androidviews.app.ErrorApp
 
 interface CategoryRepository {
 
-    fun obtainCategory(): Either<ErrorApp, Category>
+    suspend fun obtainCategory(): Either<ErrorApp, Category>
 
 }
